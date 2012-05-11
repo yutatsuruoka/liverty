@@ -1,0 +1,225 @@
+@import "reset.less";
+
+/* ===== Primary Styles ================================================================================================================================== */
+
+// Grays
+// -------------------------
+@black:                 #000;
+@gray:                  #333;
+@grayLight:             #999;
+@grayLighter:           #ccc;
+@white:                 #fff;
+
+
+// Accent colors
+// -------------------------
+@pink:                  #ff155c;
+
+body {
+  font-family: 'Chaparral Pro',"ヒラギノ明朝 ProN W3","Hiragino Mincho ProN",serif;
+  color: @gray;
+  background: @white;
+  font-size: 14px;
+  letter-spacing: .09em;
+  line-height: 1.3em;
+  width:100%;
+  min-width:1008px;
+  -webkit-font-smoothing: subpixel-antialiased;
+/* Fix for webkit rendering */
+  -webkit-text-size-adjust: none; }
+
+a, a:visited {
+  color: @pink;
+  text-decoration: none;
+  border:none;
+}
+a:hover {
+  opacity: .6;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=60)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+}
+::-moz-selection {
+  background: @pink;
+  color: @white;
+  text-shadow: none; }
+
+::selection {
+  background: @pink;
+  color: @white;
+  text-shadow: none; }
+
+
+input[type="text"]{letter-spacing:.1em;}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+}
+
+
+.clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.wrapper{
+  width:1000px;
+  margin:0 auto;
+}
+.last{
+  margin:0;
+  padding:0;
+  border:none;
+}
+.font18{font-size:18px;line-height:100%;}
+.font24{font-size:24px;line-height:100%;}
+.font36{font-size:36px;line-height:100%;}
+.font48{font-size:48px;line-height:100%;}
+.pull-right {float: right;}
+.pull-left {float: left;}
+.hide {display: none;}
+.show {display: block;}
+iframe.twitter-share-button { width: 90px!important;}
+
+
+
+header{
+  width:100%;
+  position:fixed;
+  background:@black;
+  top:0;
+  left:0;
+  z-index:1000;
+  .headerContents{
+    position: relative;
+    min-width: 1000px;
+    width:1000px;
+    margin:0 auto;
+    height: 50px;
+    color:@white;
+    background:@black;
+    h1{padding:15px 0 0;}
+    h2{margin:26px 0 0 20px}
+    img.arrow{
+      position: absolute;
+      top:50px;
+      left:50%;
+      margin-left: -20px;
+    }
+    .snsContainer{
+      position: absolute;
+      top:18px;
+      right:0;
+    }
+  }
+}
+
+footer{
+  width: 100%;
+  min-width: 1000px;
+  height:20px;
+  padding:10px 0;
+  background: @black;
+  color:@white;
+  text-align: center;
+  p{width: 100%;text-align: center;}
+}
+
+
+//Liberty
+#liverty{
+  margin-top:140px;
+  padding-bottom:100px;
+  .innerContents{
+    .catch{text-align: right;}
+    .wrapper();
+    #mainLogo{margin-bottom:5px;}
+    #aboutInfo{
+      color:@black;
+      .font18();
+      line-height: 160%;
+    }
+  }
+}
+
+
+//project share style
+.projectContainer{
+  padding-bottom:100px;
+  margin-bottom:100px;
+  border-bottom:1px solid @black;
+  .clearfix();
+  .thumbnailBlock{
+    width:318px;
+    height:398px;
+    border:1px solid @grayLighter;
+  }
+  .contentsBlock{
+    width:660px;
+    .projectTitle{
+      color:@black;
+      margin:0 0 20px;
+      .font48();
+      a{
+        color:@black;
+        display: block;
+        .pull-left();
+      }
+      span{.font18();}
+      span.titleLeft{padding-right:.5em;}
+      span.titleRight{padding-left:.5em;}
+    }
+    .contentsText{
+      .contentsInfo{line-height:160%;}
+      .member{
+        margin:20px 0 15px;
+        .clearfix();
+        dd{.pull-left();}
+        span{padding:.3em;}
+      }
+      .otherList{
+        margin-bottom:25px;
+        li{
+          .clearfix();
+          .listTitle{width:3em;}
+          .mediaList{
+            .clearfix();
+            dd{.pull-left();}
+          }
+          span{padding:0 .5em;}
+        }
+      }
+    }
+    .releaseDay{
+      .font36();
+      color:@black;
+    }
+  }
+}
+
+//project last style
+.projectLast{
+  border-bottom:none;
+  padding:0;
+}
+
+
+/*-----------------  Media Queries -----------------*/
+/* Mobile Portrait  @media only screen and (max-width: 479px) {
+}
+*/
+@media only screen and (max-width: 479px) {
+  header{
+    position:static;
+  }
+}
+

@@ -1,0 +1,561 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+audio:not([controls]) {
+  display: none;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+button,
+input {
+  *overflow: visible;
+  line-height: normal;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+input[type="search"] {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-appearance: textfield;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+input,
+select {
+  vertical-align: middle;
+}
+ul li {
+  list-style-type: none;
+}
+/* ===== Primary Styles ================================================================================================================================== */
+body {
+  font-family: 'Chaparral Pro', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", serif;
+  color: #333333;
+  background: #ffffff;
+  font-size: 14px;
+  letter-spacing: .09em;
+  line-height: 1.3em;
+  width: 100%;
+  min-width: 1008px;
+  -webkit-font-smoothing: subpixel-antialiased;
+  /* Fix for webkit rendering */
+
+  -webkit-text-size-adjust: none;
+}
+a,
+a:visited {
+  color: #ff155c;
+  text-decoration: none;
+  border: none;
+}
+a:hover {
+  opacity: .6;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=60)";
+  filter: progid:dximagetransform.microsoft.alpha(opacity=60);
+}
+::-moz-selection {
+  background: #ff155c;
+  color: #ffffff;
+  text-shadow: none;
+}
+::selection {
+  background: #ff155c;
+  color: #ffffff;
+  text-shadow: none;
+}
+input[type="text"] {
+  letter-spacing: .1em;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+.last {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.font18 {
+  font-size: 18px;
+  line-height: 100%;
+}
+.font24 {
+  font-size: 24px;
+  line-height: 100%;
+}
+.font36 {
+  font-size: 36px;
+  line-height: 100%;
+}
+.font48 {
+  font-size: 48px;
+  line-height: 100%;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+iframe.twitter-share-button {
+  width: 90px!important;
+}
+header {
+  width: 100%;
+  position: fixed;
+  background: #000000;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+header .headerContents {
+  position: relative;
+  min-width: 1000px;
+  width: 1000px;
+  margin: 0 auto;
+  height: 50px;
+  color: #ffffff;
+  background: #000000;
+}
+header .headerContents h1 {
+  padding: 15px 0 0;
+}
+header .headerContents h2 {
+  margin: 26px 0 0 20px;
+}
+header .headerContents img.arrow {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  margin-left: -20px;
+}
+header .headerContents .snsContainer {
+  position: absolute;
+  top: 18px;
+  right: 0;
+}
+footer {
+  width: 100%;
+  min-width: 1000px;
+  height: 20px;
+  padding: 10px 0;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+footer p {
+  width: 100%;
+  text-align: center;
+}
+#liverty {
+  margin-top: 140px;
+  padding-bottom: 100px;
+}
+#liverty .innerContents {
+  width: 1000px;
+  margin: 0 auto;
+}
+#liverty .innerContents .catch {
+  text-align: right;
+}
+#liverty .innerContents #mainLogo {
+  margin-bottom: 5px;
+}
+#liverty .innerContents #aboutInfo {
+  color: #000000;
+  font-size: 18px;
+  line-height: 100%;
+  line-height: 160%;
+}
+.subContents {
+  border-bottom: 1px solid #000000;
+}
+.subContents .subContentsTitle {
+  border-bottom: 1px solid #000000;
+  margin-bottom: 100px;
+  padding-bottom: 15px;
+}
+.subContents .subContentsTitle h1.contentsTitle {
+  font-size: 24px;
+  line-height: 100%;
+}
+#about {
+  padding: 0 0 100px;
+  margin: 0 0 100px;
+}
+#about .innerContents .warusouLogo {
+  margin-bottom: 20px;
+}
+#about .innerContents #aboutInfo {
+  color: #000000;
+  font-size: 18px;
+  line-height: 100%;
+  line-height: 160%;
+}
+#about .innerContents .aboutName {
+  margin: 10px;
+  text-align: right;
+  color: #000000;
+}
+.projectContainer {
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+  border-bottom: 1px solid #000000;
+  *zoom: 1;
+}
+.projectContainer:before,
+.projectContainer:after {
+  display: table;
+  content: "";
+}
+.projectContainer:after {
+  clear: both;
+}
+.projectContainer .thumbnailBlock {
+  width: 318px;
+  height: 398px;
+  border: 1px solid #cccccc;
+}
+.projectContainer .contentsBlock {
+  width: 660px;
+}
+.projectContainer .contentsBlock .projectTitle {
+  color: #000000;
+  margin: 0 0 20px;
+  font-size: 48px;
+  line-height: 100%;
+}
+.projectContainer .contentsBlock .projectTitle a {
+  color: #000000;
+  display: block;
+  float: left;
+}
+.projectContainer .contentsBlock .projectTitle span {
+  font-size: 18px;
+  line-height: 100%;
+}
+.projectContainer .contentsBlock .projectTitle span.titleLeft {
+  padding-right: .5em;
+}
+.projectContainer .contentsBlock .projectTitle span.titleRight {
+  padding-left: .5em;
+}
+.projectContainer .contentsBlock .contentsText .contentsInfo {
+  line-height: 160%;
+}
+.projectContainer .contentsBlock .contentsText .member {
+  margin: 20px 0 15px;
+  *zoom: 1;
+}
+.projectContainer .contentsBlock .contentsText .member:before,
+.projectContainer .contentsBlock .contentsText .member:after {
+  display: table;
+  content: "";
+}
+.projectContainer .contentsBlock .contentsText .member:after {
+  clear: both;
+}
+.projectContainer .contentsBlock .contentsText .member dd {
+  float: left;
+}
+.projectContainer .contentsBlock .contentsText .member span {
+  padding: .3em;
+}
+.projectContainer .contentsBlock .contentsText .otherList {
+  margin-bottom: 25px;
+}
+.projectContainer .contentsBlock .contentsText .otherList li {
+  *zoom: 1;
+}
+.projectContainer .contentsBlock .contentsText .otherList li:before,
+.projectContainer .contentsBlock .contentsText .otherList li:after {
+  display: table;
+  content: "";
+}
+.projectContainer .contentsBlock .contentsText .otherList li:after {
+  clear: both;
+}
+.projectContainer .contentsBlock .contentsText .otherList li .listTitle {
+  width: 3em;
+}
+.projectContainer .contentsBlock .contentsText .otherList li .mediaList {
+  *zoom: 1;
+}
+.projectContainer .contentsBlock .contentsText .otherList li .mediaList:before,
+.projectContainer .contentsBlock .contentsText .otherList li .mediaList:after {
+  display: table;
+  content: "";
+}
+.projectContainer .contentsBlock .contentsText .otherList li .mediaList:after {
+  clear: both;
+}
+.projectContainer .contentsBlock .contentsText .otherList li .mediaList dd {
+  float: left;
+}
+.projectContainer .contentsBlock .contentsText .otherList li span {
+  padding: 0 .5em;
+}
+.projectContainer .contentsBlock .releaseDay {
+  font-size: 36px;
+  line-height: 100%;
+  color: #000000;
+}
+.projectLast {
+  border-bottom: none;
+  padding: 0;
+}
+/*-----------------  Media Queries -----------------*/
+/* Mobile Portrait  @media only screen and (max-width: 479px) {
+}
+*/
+@media only screen and (max-width: 479px) {
+  header {
+    position: static;
+  }
+}
